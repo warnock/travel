@@ -12,7 +12,7 @@ $(document).ready(function() {
     var landmark = $("input#landmark").val();
     var date = $("input#dateOfVisit").val();
     var notes = $("input#notes").val();
-
+    $()
 
 
     $("input#newLocationName").val();
