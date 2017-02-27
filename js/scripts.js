@@ -12,12 +12,10 @@ $(document).ready(function() {
     var landmark = $("input#landmark").val();
     var date = $("input#dateOfVisit").val();
     var notes = $("input#notes").val();
-    $()
-
-
-    $("input#newLocationName").val();
-    $("input#landmark").val();
-    $("input#dateOfVisit").val();
-    $("input#notes").val();
+    $("ul#location").append("<li>" + location + "</li>");
+    $("input#newLocationName").val("");
+    $("input#landmark").val("");
+    $("input#dateOfVisit").val("");
+    $("input#notes").val("");
   });
 });
